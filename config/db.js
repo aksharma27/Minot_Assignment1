@@ -8,8 +8,7 @@ const DB = process.env.DB;
 const connect = ()=>{
 
 
-    // {useNewUrlParser: true,  
-    //     useUnifiedTopology: true}
+
 
     mongoose.connect(process.env.DB, {
         useUnifiedTopology: true,

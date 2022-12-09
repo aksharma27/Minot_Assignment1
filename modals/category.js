@@ -13,7 +13,7 @@ const imagesGallerySchema = new Schema({
     name: {type: String, required: true},
     created: { type: Date},
     updated: {type: Date},
-    category: ['superhero', 'laptop', 'car', 'cricket'], 
+    category: [String], 
     likes: {type: Number},
     imgLink: {type: String}
 })
